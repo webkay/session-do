@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.8'
+ruby '2.4.9'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
@@ -56,7 +56,7 @@ end
 group :production do
   gem 'pg', '~> 0.21'
   gem 'rails_12factor'
-  gem 'puma'
+  gem 'puma', '~> 3.12.2'
 end
 
 gem 'local_time', '~> 1.0.0'
